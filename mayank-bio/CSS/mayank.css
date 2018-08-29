@@ -1,0 +1,173 @@
+ul li a,
+nav div div a{
+/*     text-wrap: normal; */
+    text-align: center;
+    font-family: "Book Antiqua";
+    font-size: 1.1em;
+    color: #f6f6f6;
+    width: auto;
+    height: auto;
+}
+/* nav{
+     display: inline-block; 
+} */
+/* #navbars ul li a{
+    float: right !important; */
+/*}*/
+nav div div.col-sm-3{
+    font-size: 1.75em;
+    font-family: "Book Antiqua";
+    color: #ffffff;
+    padding-top: 5px;
+}
+/* nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+} */
+nav.navbar {
+    background-color:orangered;
+}
+nav {
+    background-color: orangered;
+    height: auto;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e;
+    background-color: #fff;
+}
+nav div div a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+div.jumbotron{
+    font-family: "Barrio";
+    background-color: orangered;
+    color: #f6f6f6;
+    height: auto;
+    padding-top: 50px;
+}
+.me{
+    font-size: medium;
+}
+.container-fluid{
+/*     padding: 60px 50px; */
+}
+.img-rounded,.img-circle{
+    height: 200px;
+    width: 200px;
+}
+.me h3,
+.school h3,
+.work h3{
+    color: #818181;
+}
+.school{
+    font-size: 15px;
+}
+.carousel-inner img{
+    width: 100%;
+    margin: auto;
+}
+.carousel-indicators li{
+    border-color: orangered ;
+}
+.carousel-indicators li.active{
+    background-color: orangered;
+}
+.slideanim{
+    visibility: hidden;
+}
+.slide{
+    animation-name: slide;
+    animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slide {
+    0%{
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100%{
+         opacity: 1;
+        transform: translateY(0%);
+    }
+}
+.carousel-caption{
+    font-size: small;
+    border-color: orangered;
+}
+.indie{
+    font-family: "Indie Flower",bold;
+}
+.panel-heading{
+    color: #f6f6f6 !important;
+    background-color: orangered !important;
+}
+.panel-heading h3{
+    color: #f6f6f6 !important;
+}
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.panel{
+    border-color: orangered;
+    border-width: 1px;
+    box-shadow: 0px 0px 0px ;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.panel-body .img-responsive{
+    margin: auto;
+    display: block;
+    height: 200px !important;
+    width: 200px !important;
+}
+.sp img{
+    width: 100px !important;
+}
+.fa-facebook-official{
+    color: #3b5998;
+
+}
+.fa-github-square{
+    color: #303030;
+}
+.fa{
+    font-size: 2em;
+}
+body{
+    opacity:1;
+    margin: 10px;
+    transition: 1s opacity;
+    margin-top: 0px !important;
+    background-color:orangered;
+}
+html{
+    background-color: orangered;
+}
+#mem{
+    width: 100%;
+    height: 100px;
+    background-color:white !important;
+}
+#mem div div img{
+    background-size: cover;
+    opacity: 0.4;
+}
+@media screen and (max-width:768px){
+    #mem{
+        display:none !important;
+    }
+}
+button.btn.btn-primary a{
+    color: #f6f6f6;
+    text-decoration: none;
+}
+.icon-bar{
+    color:white !important;
+    background-color:white !important;
+}
+#about,#education,#contact,#projects{
+    background-color:white !important;
+}
